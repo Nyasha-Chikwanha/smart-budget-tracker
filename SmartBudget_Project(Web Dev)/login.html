@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Smart Budget — Log in</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="landing.html" class="brand">
+        <img src="images/logo.svg" alt="logo" class="logo"/>
+        <span>Smart Budget</span>
+      </a>
+      <nav class="nav-links">
+        <a href="landing.html">Home</a>
+        <a href="signup.html" class="btn btn-outline">Sign up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="auth-page">
+    <div class="container auth-inner">
+      <div class="auth-card">
+        <h1>Welcome back</h1>
+        <p>Log in to access your Smart Budget account.</p>
+        <form id="loginForm">
+          <label>Email
+            <input type="email" name="email" required placeholder="you@example.com">
+          </label>
+          <label>Password
+            <input type="password" name="password" required placeholder="Enter password">
+          </label>
+          <button type="submit" class="btn btn-cta">Log in</button>
+          <p class="muted">Don't have an account? <a href="signup.html">Sign up</a></p>
+        </form>
+      </div>
+      <div class="auth-art">
+        <img src="images/login-graphic.svg" alt="login art"/>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer small">
+    <div class="container footer-inner">
+      <p>&copy; 2025 Smart Budget</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
